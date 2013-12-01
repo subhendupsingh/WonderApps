@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    tools:context=".MainActivity" >
+    
+  <LinearLayout
+      android:id="@+id/steps"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:background="#ffffff"
+      android:orientation="horizontal"
+       >
+
+      <ImageView
+          android:id="@+id/ImageView15"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.37"
+          android:orientation="vertical"
+          android:scaleType="centerInside"
+          android:src="@drawable/steps_1" />
+  </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:columnWidth="360dp"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="5dp"
+        android:drawSelectorOnTop="true"
+        android:stretchMode="columnWidth"
+        android:layout_below="@+id/steps" >
+    </GridView>
+    
+
+</RelativeLayout>
