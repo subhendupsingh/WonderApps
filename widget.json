@@ -5,10 +5,10 @@
     "padding":"10,10,10,10",
     "children":[
       {
-        type:"ClipRRect",
+        "type":"ClipRRect",
         "borderRadius":"8",
         "child":{
-          type:"NetworkImage",
+          "type":"NetworkImage",
           "src":"https://storage.googleapis.com/vksparrow/AutofyApp/banner2.jpg"
         }
 
