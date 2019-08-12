@@ -10,7 +10,6 @@
         "child":{
           "type":"NetworkImage",
           "src":"https://storage.googleapis.com/vksparrow/AutofyApp/banner2.jpg",
-          "click_event":"route://productDetail?goods_id=123"
         }
 
       }
