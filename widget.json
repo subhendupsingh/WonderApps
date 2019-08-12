@@ -1,7 +1,9 @@
 {
-  type:"ListView",
-  "padding":"10,10,10,10",
-  "children":[
+  "type": "Container",
+  "child": {
+    "type": "ListView",
+    "padding":"10,10,10,10",
+    "children":[
       {
         type:"ClipRRect",
         "borderRadius":"8",
@@ -12,4 +14,6 @@
 
       }
   ]
+  }
 }
+
